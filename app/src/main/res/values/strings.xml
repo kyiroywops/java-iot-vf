@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">App Galeria de Imágenes</string>
+    <string name="desarrollador">Desarrollado por: Víctor Marín Almonacid</string>
+
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <!--MENU ADMIN-->
+    <string name="InicioAdmin">Inicio</string>
+    <string name="PerfilAdmin">Perfil</string>
+    <string name="RegistrarAdmin">Registrar</string>
+    <string name="ListarAdmin">Lista de administradores</string>
+    <string name="Salir">Cerrar sesión</string>
+
+
+</resources>
