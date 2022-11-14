@@ -1,4 +1,4 @@
-package com.miempresa.galeria_imagenes;
+package com.miempresa.rickandmorty_aplicacion_java;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.ActionBarDrawerToggle;

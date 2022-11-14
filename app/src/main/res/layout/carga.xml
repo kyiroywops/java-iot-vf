@@ -5,49 +5,42 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#76D7C4"
-    tools:context=".Carga">
+    android:background="#FFBB86FC"
+    tools:context=".carga">
 
     <androidx.appcompat.widget.LinearLayoutCompat
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:gravity="center"
         android:orientation="vertical">
-        <!-- Acá colocamos la imagen de la pantalla -->
+        <!-- Vista de carga -->
         <androidx.appcompat.widget.AppCompatImageView
             android:layout_width="250dp"
             android:layout_height="250dp"
-            android:src="@drawable/iconcarga" />
-        <!--Acá insertamos los textos de esta pantalla-->
-        <TextView
-            android:id="@+id/app_name"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="20sp"
-            android:gravity="center"
-            android:text="@string/app_name"
-            android:textColor="#FFF"
-            android:textSize="20sp" />
+            android:src="@drawable/imageninicio" />
 
-        <TextView
-            android:id="@+id/desarrollador"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
-            android:gravity="center"
-            android:text="@string/desarrollador"
-            android:textColor="#FFF"
-            android:textSize="18sp" />
-        <!--Acá agregamos animación de carga archivo Lottie-->
+
         <com.airbnb.lottie.LottieAnimationView
             android:layout_width="match_parent"
             android:layout_height="150dp"
             android:layout_gravity="center"
             android:layout_marginTop="10dp"
             app:lottie_autoPlay="true"
-            app:lottie_fileName="loading.json"
+            app:lottie_fileName="hamster.json"
             app:lottie_imageAssetsFolder="assets"
             app:lottie_loop="true" />
+
+
+        <TextView
+            android:id="@+id/desarrollador"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textSize="38dp"
+            android:gravity="center"
+            android:text="@string/desarrollador"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
 
 
     </androidx.appcompat.widget.LinearLayoutCompat>

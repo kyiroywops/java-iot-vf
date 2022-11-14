@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
+
 <androidx.drawerlayout.widget.DrawerLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
@@ -8,7 +9,7 @@
     android:layout_height="match_parent"
     android:fitsSystemWindows="true"
     android:background="#FFF"
-    tools:context=".MainActivityAdministrador"
+    tools:context="com.miempresa.rickandmorty_aplicacion_java.MainActivityAdministrador"
     tools:openDrawer="start">
 
     <androidx.appcompat.widget.LinearLayoutCompat
@@ -38,7 +39,10 @@
         android:layout_gravity="start"
         app:headerLayout="@layout/encabezado"
         app:menu="@menu/menu_admin"
-        android:background="#FFF"
-        app:itemTextColor="#000"/>
+        android:background="#FF018786"
+        app:itemTextColor="#FFFFFFFF"/>
 
 </androidx.drawerlayout.widget.DrawerLayout>
+
+
+

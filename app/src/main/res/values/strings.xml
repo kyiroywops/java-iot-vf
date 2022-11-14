@@ -1,6 +1,6 @@
 <resources>
-    <string name="app_name">App </string>
-    <string name="desarrollador">Bienviendo rey</string>
+    <string name="app_name">App Rick and Morty </string>
+    <string name="desarrollador">Bienvenido, Cargando app.</string>
 
 
     <string name="navigation_drawer_open">Open navigation drawer</string>
@@ -8,9 +8,9 @@
 
     <!--MENU ADMIN-->
     <string name="InicioAdmin">Inicio</string>
-    <string name="PerfilAdmin">Perfil</string>
-    <string name="RegistrarAdmin">Registrar</string>
-    <string name="ListarAdmin">Lista de administradores</string>
+    <string name="PerfilAdmin">Mi cuenta</string>
+    <string name="RegistrarAdmin">Ver listados</string>
+    <string name="ListarAdmin">Ver usuarios</string>
     <string name="Salir">Cerrar sesión</string>
 
 
